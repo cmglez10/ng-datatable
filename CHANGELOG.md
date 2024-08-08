@@ -1,5 +1,140 @@
 # Changelog
 
+## 18.0.0 (2024-08-06)
+
+Changes
+
+- Use Angular 18 (closes #17 and #18)
+- Use new control flow
+- Add Generics for better type support (potentially breaking!)
+
+## 17.0.0 (2023-11-15)
+
+Changes
+
+- Use Angular 17
+- Switch dev setup to PNPM (no library-user impact expected)
+
+## 16.0.1 & 16.0.2 (2023-05-04)
+
+Changes
+
+- Small metadata fixes
+
+## 16.0.0 (2023-05-04)
+
+Changes
+
+- Use Angular 16
+
+## 15.1.2 (2023-04-24)
+Changes
+
+- Update dependencies to latest, fixes security alert
+
+## 15.1.1 (2023-02-18)
+Changes
+
+- Update dependencies to latest (closes #13)
+
+## 15.1.0 (2022-11-28)
+
+Changes
+
+- Not not throw runtime error if sortBy is undefined (thanks @alexkushnarov)
+
+## 15.0.0 (2022-11-28)
+
+Changes
+
+- Use Angular 15
+
+## 14.0.1 (2022-10-15)
+
+Changes
+
+- Minor dependency upgrades
+- Adjust linting configuration
+
+## 14.0.0 (2022-06-19)
+
+Changes
+
+- Use Angular 14
+
+This update seems to have changed the behaviour of the change detection, if you notice any unexpected behaviour please open a new issue.
+
+## 13.1.0 (2022-02-05)
+
+Changes
+
+- Consistently sort nullish values (#8) (**Changed behaviour**)
+
+This release fixes the very strange null sorting behaviour. Null values are now treated like empty strings and are placed at the top when sorting ascendingly.
+
+## 13.0.0 (2021-11-10)
+
+Changes
+
+- Use Angular 13
+- Switch to Bootstrap 5 (**Breaking**)
+
+This release is the first to ever touch the UI in a considerable way. If your project relies on an old version of Bootstrap this table might not look ideal in its latest version. Custom stylings might need to be adjusted, see the demo project for an example of the new bootstrap classes to use.
+
+## 12.0.1 (2020-11-23)
+
+Changes:
+
+- Use Angular 12
+- Sort headers are now 508 compliant and are usable by keyboard (Thanks @kvbutler)
+- Publish in partial-ivy support - Angular ivy compiler required
+- Stricter type declarations to prevent surprising runtime errors
+
+## 11.1.0 (2020-11-23)
+
+Changes:
+    
+    - Remove dependency to lodash
+
+## 11.0.1 (2020-11-23)
+
+Changes:
+    
+    - Specify correct peer dependency version
+
+## 11.0.0 (2020-11-15)
+
+Changes:
+    
+    - Use Angular 11
+
+## 10.0.0 (2020-06-27)
+
+Changes:
+    
+    - Use Angular 10
+
+## 9.0.1 (2019-11-06)
+
+Changes:
+    
+    - Use Angular 9
+    - Use Angular CLI for build pipeline
+    - Fix some linting issues
+
+## 8.0.0 (2019-11-06)
+
+Changes:
+    
+    - Use Angular 8
+
+## 2.0.0 (2018-07-10)
+
+Changes:
+    
+    - Published as package @pascalhonegger/ng-datatable
+    - Use Angular 7
+
 ## 0.7.3 (2018-10-04)
 
 Changes:
